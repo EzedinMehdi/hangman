@@ -25,5 +25,5 @@ def hangman(word):
     if not win:
         print('\n'.join(stages[0: wrong_guesses]))
         print('You lose! The words was {}'.format(word))
-
-hangman("cat")
+#did I make a change?
+hangman("tiger")
